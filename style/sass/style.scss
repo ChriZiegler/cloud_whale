@@ -1,0 +1,139 @@
+$lightpink: #ffbeca;
+$pink: #fba1b2;
+$darkpink: #e96968;
+$offwhite: #fdfdf7;
+$cream: #fdedda;
+$brown: #894f4f;
+$lightblue: #addff6;
+body{
+  background-image:url("../images/polkadot_background.png");
+  background-size:1em;
+  color: $brown;
+}
+
+.maindiv{
+  background-color:white;
+  padding:0;
+  border:4px solid $pink;
+}
+
+#header{
+  width:100%;
+  padding:0;
+}
+.siteheader nav ul{
+  margin-bottom:0;
+}
+
+.siteheader nav{
+  border: 2px solid $pink;
+}
+
+.siteheader nav li{
+  display: inline-block;
+  padding-right:6%;
+  padding-left: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.siteheader a{
+  color: $brown;
+}
+
+.siteheader li:hover{
+  background-color: $lightpink;
+}
+
+
+
+.leftdiv{
+  background-color: $offwhite;
+  border: 2px solid $pink;
+  padding: 0;
+}
+
+.leftdiv h1{
+  color:$darkpink;
+  background-color: $cream;
+  margin: 0;
+  padding: 3%;
+  text-align:center;
+  z-index: 2;
+}
+
+.leftdiv p{
+  padding: 3%;
+}
+
+.leftdiv h2{
+  color: $darkpink;
+  background-color: $cream;
+  margin: 0;
+  padding: 3%;
+  text-align:center;
+}
+
+.rightdiv{
+  background-color: $offwhite;
+  padding: 0
+}
+
+.rightdiv a{
+  color:$brown;
+}
+
+
+.rightdiv .searchbar{
+  padding: 1%;
+}
+
+.cart{
+  text-align:right;
+}
+.cart_text{
+  font-size:1.1em;
+  display:inline-block;
+}
+#searchsubmitbutton{
+  background: white;
+  border: 2px solid $brown;
+  padding:.3em;
+  color: $brown;
+}
+
+ #searchinput{
+   width: 70%;
+   border: 2px solid $brown;
+   padding: .3em;
+   color: $brown;
+ }
+
+#searchinput:focus{
+  outline: 2px solid $pink;
+}
+#searchsubmitbutton:focus{
+  outline:none;
+  border: 2px solid $pink;
+}
+
+
+.productdisplay{
+  background-color: white;
+  padding-top:5%;
+}
+
+.productdisplay img{
+  width: 85%;
+}
+
+.productbox{
+  text-align:center;
+  padding: 2%;
+
+}
+
+.productdisplay img:hover{
+  display:inline-block;
+  outline: 4px solid $lightblue
+}

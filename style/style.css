@@ -1,0 +1,158 @@
+/* line 8, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+body {
+  background-image: url("../images/polkadot_background.png");
+  background-size: 1em;
+  color: #894f4f;
+}
+
+/* line 14, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.maindiv {
+  background-color: white;
+  padding: 0;
+  border: 4px solid #fba1b2;
+}
+
+/* line 20, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#header {
+  width: 100%;
+  padding: 0;
+}
+
+/* line 24, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav ul {
+  margin-bottom: 0;
+}
+
+/* line 28, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav {
+  border: 2px solid #fba1b2;
+}
+
+/* line 32, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav li {
+  display: inline-block;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* line 40, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader a {
+  color: #894f4f;
+}
+
+/* line 44, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader li:hover {
+  background-color: #ffbeca;
+}
+
+/* line 50, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv {
+  background-color: #fdfdf7;
+  border: 2px solid #fba1b2;
+  padding: 0;
+}
+
+/* line 56, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv h1 {
+  color: #e96968;
+  background-color: #fdedda;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 65, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv p {
+  padding: 3%;
+}
+
+/* line 69, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv h2 {
+  color: #e96968;
+  background-color: #fdedda;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+}
+
+/* line 77, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv {
+  background-color: #fdfdf7;
+  padding: 0;
+}
+
+/* line 82, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv a {
+  color: #894f4f;
+}
+
+/* line 87, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv .searchbar {
+  padding: 1%;
+}
+
+/* line 91, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.cart {
+  text-align: right;
+}
+
+/* line 94, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.cart_text {
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+/* line 98, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchsubmitbutton {
+  background: white;
+  border: 2px solid #894f4f;
+  padding: .3em;
+  color: #894f4f;
+}
+
+/* line 105, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchinput {
+  width: 70%;
+  border: 2px solid #894f4f;
+  padding: .3em;
+  color: #894f4f;
+}
+
+/* line 112, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchinput:focus {
+  outline: 2px solid #fba1b2;
+}
+
+/* line 115, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchsubmitbutton:focus {
+  outline: none;
+  border: 2px solid #fba1b2;
+}
+
+/* line 121, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay {
+  background-color: white;
+  padding-top: 5%;
+}
+
+/* line 126, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay img {
+  width: 85%;
+}
+
+/* line 130, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productbox {
+  text-align: center;
+  padding: 2%;
+}
+
+/* line 136, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay img:hover {
+  display: inline-block;
+  outline: 4px solid #addff6;
+}
+
+/*# sourceMappingURL=../style.map */
