@@ -1,0 +1,51 @@
+[{
+  "name":"Garo-Garo Plush",
+  "price":40,
+  "description": "This cuddly creature is made of soft minky. Perfect for children and enthusiasts alike.",
+  "specifications":{"size":"30cm",
+                    "materials":"White minky, black fleece, orange felt"},
+  "images":["images/plush_1.png"],
+  "tags":["minky","plush"],
+  "rating":1
+},
+{
+  "name":"Eevee Plush",
+  "price":30,
+  "description": "From the popular Pokemon series, this foxlike creature is perfect for Eevee fans. Makes a great gift!",
+  "specifications":{"size":"20cm",
+                    "materials":"Brown fleece, white fleece, black felt"},
+  "images":["images/plush_2.png"],
+  "tags":["fleece","plush","pokemon"],
+  "rating":3
+},
+{
+  "name":"Catbug Plush",
+  "price":50,
+  "description": "From the Youtube cartoon series 'Bravest Warriors' comes Catbug! This life-size plush will make the perfect addition to your collection",
+  "specifications":{"size":"50cm",
+                    "materials":"Blue minky, red fleece, black felt"},
+  "images":["images/plush_3.png"],
+  "tags":["minky","plush"],
+  "rating":2
+},
+{
+  "name":"Applebloom Plush",
+  "price":30,
+  "description": "From the cartoon 'My Little Pony: Friendship is Magic' comes Applebloom. Comes with her signature pink bow. Add this item to your collection today!",
+  "specifications":{"size":"20cm",
+                    "materials":"Red fleece, cream fleece, white felt, red ribbon"},
+  "images":["images/plush_4.png"],
+  "tags":["fleece","plush","My Little Pony"],
+  "rating":4
+},
+{
+  "name":"Jolteon Plush",
+  "price":25,
+  "description": "It's the Pokemon character Jolteon, but in a rare blue color!",
+  "specifications":{"size":"20cm",
+                    "materials":"blue minky"},
+  "images":["images/plush_5.png"],
+  "tags":["minky","pokemon"],
+  "rating":5
+  }
+]

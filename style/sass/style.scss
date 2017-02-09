@@ -5,10 +5,14 @@ $offwhite: #fdfdf7;
 $cream: #fdedda;
 $brown: #894f4f;
 $lightblue: #addff6;
+$blue: #7cc6e8;
+$darkblue: #348eb8;
+
 body{
   background-image:url("../images/polkadot_background.png");
   background-size:1em;
   color: $brown;
+  font-family: 'Roboto', sans-serif;
 }
 
 .maindiv{
@@ -26,7 +30,8 @@ body{
 }
 
 .siteheader nav{
-  border: 2px solid $pink;
+  border-bottom: 2px solid $pink;
+  border-top: 2px solid $pink;
 }
 
 .siteheader nav li{
@@ -49,11 +54,12 @@ body{
 
 .leftdiv{
   background-color: $offwhite;
-  border: 2px solid $pink;
+  border-right: 2px solid $pink;
   padding: 0;
 }
 
 .leftdiv h1{
+  font-family: 'Coiny', sans-serif;
   color:$darkpink;
   background-color: $cream;
   margin: 0;
@@ -67,12 +73,19 @@ body{
 }
 
 .leftdiv h2{
+  font-family: 'Coiny', sans-serif;
+  font-size:2em;
   color: $darkpink;
   background-color: $cream;
   margin: 0;
   padding: 3%;
   text-align:center;
 }
+
+#filtersearchform{
+  padding:5%;
+}
+
 
 .rightdiv{
   background-color: $offwhite;
@@ -97,14 +110,14 @@ body{
 }
 #searchsubmitbutton{
   background: white;
-  border: 2px solid $brown;
+  border: 2px solid $darkpink;
   padding:.3em;
   color: $brown;
 }
 
  #searchinput{
    width: 70%;
-   border: 2px solid $brown;
+   border: 2px solid $darkpink;
    padding: .3em;
    color: $brown;
  }
@@ -136,4 +149,35 @@ body{
 .productdisplay img:hover{
   display:inline-block;
   outline: 4px solid $lightblue
+}
+
+.productdisplay h4{
+  margin:2%;
+}
+
+.productdisplay p{
+  margin:1%;
+  font-size:1.4em;
+}
+
+.price{
+  font-weight:bold;
+  display:inline-block;
+  color: $darkblue;
+}
+
+.addcartbutton{
+  font-size:1.3em;
+  background: $offwhite;
+  border: 2px solid $darkblue;
+  color: $darkpink;
+}
+
+.addcartbutton:focus{
+  outline: none;
+  background-color: $cream;
+}
+
+.productbox h4{
+  font-weight:bold;
 }
