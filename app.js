@@ -1,1 +1,1 @@
-var myStore = angular.module('myStore',['productDisplayModule'])
+var myStore = angular.module('myStore',['productDisplayModule','headerFooterModule'])
