@@ -16,11 +16,19 @@
   <script src="controllers/myStoreController.js" type = "text/javascript"></script>
   <script src="modules/productdisplay.js" type = "text/javascript"></script>
   <script src="modules/headerfooter.js" type = "text/javascript"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" type="text/javascript"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js" type="text/javascript"></script>
 
+  </script>
 
   <title>Cloud Whale: A Crafts Store</title>
 </head>
 <body ng-controller="myStoreController as controller">
+  <div ng-controller="modalController as modalcontroller">
+    <button type="button" class="btn btn-default" ng-click="modalcontroller.open()">Open me!</button>
+  </div>
+
+  <div productmodal></div>
   <div class="maindiv col-sm-10 col-sm-offset-1 container">
     <div class="siteheader" siteheader></div>
     <div class="content_div">
@@ -43,7 +51,7 @@
 
       </div>
 
-      <div class="rightdiv col-xs-8 container">
+      <div class="rightdiv col-xs-8 container-fluid">
         <div class="searchbar row">
           <form id="topsearchbar" class="col-xs-8">
             <input type="text" placeholder="Search Products" id="searchinput">

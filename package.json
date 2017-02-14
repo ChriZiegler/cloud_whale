@@ -1,0 +1,23 @@
+{
+  "name": "cloud_whale",
+  "version": "1.0.0",
+  "description": "E-commerce website for crafts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChriZiegler/cloud_whale.git"
+  },
+  "keywords": [
+    "cloud",
+    "whale"
+  ],
+  "author": "Christie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChriZiegler/cloud_whale/issues"
+  },
+  "homepage": "https://github.com/ChriZiegler/cloud_whale#readme"
+}

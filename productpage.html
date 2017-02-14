@@ -17,6 +17,8 @@
   <script src="controllers/myPanelController.js" type = "text/javascript"></script>
   <script src="modules/productdisplay.js" type = "text/javascript"></script>
   <script src="modules/headerfooter.js" type = "text/javascript"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" type="text/javascript"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js" type="text/javascript"></script>
 
 
   <title>Cloud Whale: A Crafts Store</title>
@@ -46,6 +48,16 @@
       </div>
 
       <div class="rightdiv col-xs-8 container">
+          <div class="searchbar row">
+            <form id="topsearchbar" class="col-xs-8">
+              <input type="text" placeholder="Search Products" id="searchinput">
+              <input id="searchsubmitbutton" type="submit">
+            </form>
+
+              <div class="cart col-xs-4">
+                <span class="cart_text"><a href="#">Your cart (0) <span class="glyphicon glyphicon-shopping-cart"></span></a></span>
+              </div>
+          </div>
           <div class="col-xs-12 productbox fullproduct">
             <img id=test src={{controller.products[0].images[0]}} alt="">
             <h4>{{controller.products[0].name}}</h4>
@@ -63,8 +75,8 @@
                 <p>{{controller.products[0].description}}</p>
               </div>
               <div ng-show="panel.isSelected(2)" class="fullproduct_specifications">
-                <p>{{controller.products[0].specifications["size"]}}</p>
-                <p>{{controller.products[0].specifications["materials"]}}</p>
+                <p><b>Size:</b> {{controller.products[0].specifications["size"]}}</p>
+                <p><b>Materials:</b> {{controller.products[0].specifications["materials"]}}</p>
 
               </div>
               <div ng-show="panel.isSelected(3)" class="fullproduct_reviews">
