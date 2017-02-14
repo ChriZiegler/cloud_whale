@@ -1,8 +1,8 @@
 <div class="productrow row">
   <div ng-repeat="product in controller.products | orderBy:'rating' | limitTo:4">
     <div class="clearfix" ng-if="$index % 2 == 0"> </div>
-    <div class="col-sm-6 col-xs-12 productbox">
-        <img src={{product.images[0]}} alt="">
+    <div class="col-sm-6 col-xs-12 productbox" ng-controller="modalController as modalcontroller">
+        <img src={{product.images[0]}} alt="{{product.name}}" ng-click="modalcontroller.open(large,product)">
         <h4>{{product.name}}</h4>
         <p class="price">{{product.price|currency}}</p>
         <button class="addcartbutton">Add to cart</button>

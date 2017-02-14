@@ -1,6 +1,6 @@
 <div class="productrow row">
-  <div class="col-sm-6 col-xs-12 productbox"ng-repeat="product in controller.products | orderBy:'rating'">
-    <img src={{product.images[0]}} alt="">
+  <div class="col-sm-6 col-xs-12 productbox"ng-repeat="product in controller.products | orderBy:'rating'" ng-controller="modalController as modalcontroller">
+    <img src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)">
     <h4>{{product.name}}</h4>
     <p class="price">{{product.price|currency}}</p>
     <p>{{product.description}}</p>
