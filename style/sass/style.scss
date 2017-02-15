@@ -21,20 +21,24 @@ div{
 .maindiv{
   background-color:white;
   padding:0;
-  border:4px solid $pink;
+  border:5px solid $pink;
+  margin-top:9%
 }
 
 #header{
-  width:100%;
+  width:117.5%;
   padding:0;
+  margin-left:-10.1%;
+  margin-top:-10%;
+  margin-bottom:-7.6%
 }
 .siteheader nav ul{
   margin-bottom:0;
 }
 
 .siteheader nav{
-  border-bottom: 2px solid $pink;
-  border-top: 2px solid $pink;
+  border-bottom: 3px solid $pink;
+  border-top: 3px solid $pink;
   font-size:1.2em;
 }
 
@@ -58,7 +62,7 @@ div{
 
 .leftdiv{
   background-color: $offwhite;
-  border-right: 2px solid $pink;
+  border-right: 3px solid $pink;
   padding: 0;
 }
 
@@ -293,4 +297,8 @@ div{
 
 .activepanel{
   background-color:white;
+}
+
+.modal-body{
+  border: .3em solid $pink;
 }
