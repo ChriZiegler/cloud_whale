@@ -39,13 +39,43 @@
   "rating":4
 },
 {
-  "name":"Jolteon Plush",
+  "name":"Blue Jolteon Plush",
   "price":25,
   "description": "It's the Pokemon character Jolteon, but in a rare blue color!",
   "specifications":{"size":"20cm",
                     "materials":"blue minky"},
   "images":["images/plush_5.png"],
-  "tags":["minky","pokemon"],
+  "tags":["minky","pokemon","plush"],
   "rating":5
+},
+{
+  "name":"Large Jolteon Plush",
+  "price":65,
+  "description": "This huge plush is very huggable! Great for fans of the Pokemon character Jolteon",
+  "specifications":{"size":"75cm",
+                    "materials":"yellow minky, brown fleece, pink felt"},
+  "images":["images/plush_6.png"],
+  "tags":["minky","pokemon","plush"],
+  "rating":1
+},
+{
+  "name":"Haunter Plush",
+  "price":35,
+  "description": "It's the Pokemon Haunter! Complete with floating hands attached with string.",
+  "specifications":{"size":"35cm",
+                    "materials":"Purple fleece, red felt"},
+  "images":["images/plush_7.png"],
+  "tags":["fleece","pokemon","plush"],
+  "rating":5
+},
+{
+  "name":"Fox Plush",
+  "price":50,
+  "description": "This cute fox comes with a blue bandana. Makes a great birthday gift!",
+  "specifications":{"size":"60cm",
+                    "materials":"Orange fleece, black fleece, blue felt"},
+  "images":["images/plush_8.png"],
+  "tags":["fleece","animal","plush"],
+  "rating":0
   }
 ]

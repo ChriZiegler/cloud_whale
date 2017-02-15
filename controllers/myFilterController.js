@@ -1,6 +1,7 @@
 filterModule.controller("myFilterController", function($scope, $filter){
   ths = this
-  $scope.types={'plush':false, 'pokemon':false};
+  $scope.types={};
+  $scope.prices={}
 
 
 })
@@ -20,9 +21,6 @@ searchItem = function(item, types){
     return true
   }else{
     angular.forEach(mytypes,function(type){
-      console.log(item.tags)
-      console.log(type)
-      console.log(item.tags.includes(type))
       if(item.tags.includes(type)){
         contains = true
       }
@@ -31,16 +29,48 @@ searchItem = function(item, types){
   }
 }
 
+priceMatch = function(item, prices){
+  matches = false
+  myprices = filterObject(prices)
+  if(myprices.length===0){
+    return true
+  }else{
+    angular.forEach(myprices, function(price){
+      if(price=="lessthan10" && item.price <=10){
+        matches = true
+      }
+      if(price=="tento20" && item.price >10 && item.price<=20){
+        matches = true
+      }
+      if(price=="twentyto40" && item.price >20 && item.price<=40){
+        matches = true
+      }
+      if(price=="fortyto60" && item.price >40 && item.price<=60){
+        matches = true
+      }
+      if(price=="greaterhtan60" && item.price >= 60){
+        matches = true
+      }
+    })
+  }
+  return matches
+}
+
 filterModule.filter('myfilter',function(){
-  return function(items,types){
-    var filtered=[];
+  return function(items,types,prices){
+    var filtered_1=[];
+    var filtered_2=[];
 
     angular.forEach(items,function(item){
-      console.log(searchItem(item, types))
       if(searchItem(item,types) === true){
-        filtered.push(item)
+        filtered_1.push(item)
       }
     });
-    return filtered
+    angular.forEach(filtered_1,function(item){
+      if(priceMatch(item,prices)===true){
+        filtered_2.push(item)
+      }
+    })
+    return filtered_2
   };
 });

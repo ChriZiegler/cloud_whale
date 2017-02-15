@@ -1,9 +1,12 @@
 <div class="productrow row">
-  <div class="col-sm-6 col-xs-12 productbox"ng-repeat="product in controller.products | orderBy:'rating'" ng-controller="modalController as modalcontroller">
-    <img src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)">
-    <h4>{{product.name}}</h4>
-    <p class="price">{{product.price|currency}}</p>
-    <p>{{product.description}}</p>
-    <button class="addcartbutton">Add to cart</button>
+  <div ng-repeat="product in controller.products | orderBy:'rating' | myfilter:types:prices" ng-controller="modalController as modalcontroller">
+    <div class="clearfix" ng-if="$index % 2 ==0"></div>
+    <div class="col-sm-6 col-xs-12 productbox">
+      <img src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)">
+      <h4>{{product.name}}</h4>
+      <p class="price">{{product.price|currency}}</p>
+      <p>{{product.description}}</p>
+      <button class="addcartbutton">Add to cart</button>
+    </div>
   </div>
 </div>

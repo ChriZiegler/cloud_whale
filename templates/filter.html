@@ -12,10 +12,10 @@
   </form>
   <h2>Price Range</h2>
   <form id="filtersearchform">
-    <input type="checkbox" name="filteritem" class="filteritem" value="<10"> Less than $10 <br>
-    <input type="checkbox" name="filteritem" class="filteritem" value="10-20"> $10-$20 <br>
-    <input type="checkbox" name="filteritem" class="filteritem" value="20-40"> $20-$40 <br>
-    <input type="checkbox" name="filteritem" class="filteritem" value="40-60"> $40-$60 <br>
-    <input type="checkbox" name="filteritem" class="filteritem" value=">60"> $60+ <br>
+    <input type="checkbox" name="filteritem" class="filteritem" value="<10" data-ng-model='prices.lessthan10'> Less than $10 <br>
+    <input type="checkbox" name="filteritem" class="filteritem" value="10-20" data-ng-model='prices.tento20'> $10-$20 <br>
+    <input type="checkbox" name="filteritem" class="filteritem" value="20-40" data-ng-model='prices.twentyto40'> $20-$40 <br>
+    <input type="checkbox" name="filteritem" class="filteritem" value="40-60" data-ng-model='prices.fortyto60'> $40-$60 <br>
+    <input type="checkbox" name="filteritem" class="filteritem" value=">60" data-ng-model='prices.greaterthan60'> $60+ <br>
   </form>
 </div>
