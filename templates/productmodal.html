@@ -1,0 +1,32 @@
+
+<div class="modal-body productbox fullproduct" id="modal-body" style="margin-top:-4%">
+
+  <img id=test src={{$ctrl.modalproduct.images[0]}} alt="">
+  <h4>{{$ctrl.modalproduct.name}}</h4>
+  <p class="price">{{$ctrl.modalproduct.price|currency}}</p>
+  <button class="addcartbutton">Add to cart</button>
+  <div class="panel" ng-controller="myPanelController as panel">
+    <nav>
+      <ul>
+        <li ng-class="{activepanel:panel.isSelected(1)}"><a ng-click="panel.selectTab(1)">Description</a></li>
+        <li ng-class="{activepanel:panel.isSelected(2)}"><a ng-click="panel.selectTab(2)">Specifications</a></li>
+        <li ng-class="{activepanel:panel.isSelected(3)}"><a ng-click="panel.selectTab(3)">Reviews</a></li>
+      </ul>
+    </nav>
+    <div ng-show="panel.isSelected(1)" class="fullproduct_description">
+      <p>{{$ctrl.modalproduct.description}}</p>
+    </div>
+    <div ng-show="panel.isSelected(2)" class="fullproduct_specifications">
+      <p><b>Size:</b> {{$ctrl.modalproduct.specifications["size"]}}</p>
+      <p><b>Materials:</b> {{$ctrl.modalproduct.specifications["materials"]}}</p>
+
+    </div>
+    <div ng-show="panel.isSelected(3)" class="fullproduct_reviews">
+      <p>Feature coming soon!</p>
+    </div>
+
+
+</div>
+<div style="text-align:center;padding-top:2%">
+    <button style="width:90%" class="btn btn-primary" type="button" ng-click="$ctrl.ok()">Done</button>
+</div>

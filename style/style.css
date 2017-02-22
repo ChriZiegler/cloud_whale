@@ -1,0 +1,377 @@
+/* line 11, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+body {
+  background-image: url("../images/polkadot_background.png");
+  background-size: 4em;
+  color: #894f4f;
+}
+
+/* line 17, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+div {
+  font-family: "Cabin",sans-serif;
+}
+
+/* line 21, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.maindiv {
+  background-color: white;
+  padding: 0;
+  border: 5px solid #fba1b2;
+  margin-top: 9%;
+}
+
+/* line 28, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#header {
+  width: 117.5%;
+  padding: 0;
+  margin-left: -10.1%;
+  margin-top: -10%;
+  margin-bottom: -7.6%;
+}
+
+/* line 35, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav ul {
+  margin-bottom: 0;
+}
+
+/* line 39, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav {
+  border-bottom: 3px solid #fba1b2;
+  border-top: 3px solid #fba1b2;
+  font-size: 1.2em;
+}
+
+/* line 45, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader nav li {
+  display: inline-block;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* line 53, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader a {
+  color: #894f4f;
+}
+
+/* line 57, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.siteheader li:hover {
+  background-color: #ffbeca;
+}
+
+/* line 63, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv {
+  background-color: #fdfdf7;
+  border-right: 3px solid #fba1b2;
+  padding: 0;
+}
+
+/* line 69, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv h1 {
+  font-family: 'Coiny', sans-serif;
+  color: #e96968;
+  background-color: #fdedda;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 79, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv p {
+  padding: 3%;
+}
+
+/* line 83, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.leftdiv h2 {
+  font-family: 'Coiny', sans-serif;
+  font-size: 2em;
+  color: #e96968;
+  background-color: #fdedda;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+}
+
+/* line 93, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#filtersearchform {
+  padding: 5%;
+}
+
+/* line 98, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv {
+  background-color: #fdfdf7;
+  padding: 0;
+}
+
+/* line 103, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv a {
+  color: #894f4f;
+}
+
+/* line 108, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.rightdiv .searchbar {
+  padding: 1%;
+}
+
+/* line 114, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.cart {
+  text-align: right;
+}
+
+/* line 117, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.cart_text {
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+/* line 121, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchsubmitbutton, #contactsubmitbutton {
+  background: white;
+  border: 2px solid #fba1b2;
+  padding: .3em;
+  color: #894f4f;
+}
+
+/* line 128, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchinput {
+  width: 70%;
+  border: 2px solid #fba1b2;
+  padding: .3em;
+  color: #894f4f;
+}
+
+/* line 135, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchinput:focus {
+  outline: 2px solid #e96968;
+}
+
+/* line 138, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#searchsubmitbutton:focus, #contactsubmitbutton:focus {
+  outline: none;
+  border: 2px solid #e96968;
+}
+
+/* line 142, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay {
+  background-color: white;
+  padding-top: 5%;
+}
+
+/* line 146, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay img {
+  width: 85%;
+}
+
+/* line 149, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productbox {
+  text-align: center;
+  padding: 2%;
+}
+
+/* line 154, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay img:hover {
+  display: inline-block;
+  outline: 4px solid #addff6;
+}
+
+/* line 159, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay h4 {
+  margin: 2%;
+}
+
+/* line 162, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay p {
+  margin: 1%;
+  font-size: 1.4em;
+}
+
+/* line 167, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.price {
+  font-weight: bold;
+  display: inline-block;
+  color: #348eb8;
+}
+
+/* line 173, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.addcartbutton {
+  font-size: 1.3em;
+  background: #fdfdf7;
+  border: 2px solid #348eb8;
+  color: #e96968;
+}
+
+/* line 180, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.addcartbutton:focus {
+  outline: none;
+  background-color: #fdedda;
+}
+
+/* line 185, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productbox h4 {
+  font-weight: bold;
+}
+
+/* line 188, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay {
+  padding-top: 0.1%;
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 1%;
+}
+
+/* line 195, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay h3 {
+  font-family: "Coiny";
+  font-size: 3em;
+}
+
+/* line 200, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productdisplay p {
+  font-size: 1.2em;
+}
+
+/* line 204, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.aboutsection {
+  background-color: #fdedda;
+  padding: 1%;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  border: 2px solid #fba1b2;
+}
+
+/* line 212, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.about_page p {
+  font-size: 1.1em;
+}
+
+/* line 216, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.about_page h1 {
+  font-family: "Coiny";
+  text-align: center;
+  font-size: 4em;
+  color: #e96968;
+}
+
+/* line 223, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.about_page img {
+  outline: 2em solid white;
+  width: 80%;
+  margin: 10%;
+}
+
+/* line 229, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.contactform *[class^="contact"] {
+  width: 100%;
+  height: 3em;
+  padding: .4em;
+  margin-bottom: 1em;
+  border: 2px solid #fba1b2;
+}
+
+/* line 236, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.contactform *[class^="contact"]:focus {
+  outline: none;
+  border-color: #e96968;
+}
+
+/* line 240, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.contactform p {
+  margin-bottom: 0;
+}
+
+/* line 244, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.contactform textarea {
+  height: 5em !important;
+}
+
+/* line 247, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.aboutsection h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* line 252, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#contactsubmitbutton {
+  padding: 1%;
+  width: 20%;
+  font-weight: bold;
+  border: 2px solid #fba1b2;
+}
+
+/* line 258, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+#contactsubmitbutton:focus {
+  border: 2px solid #e96968;
+}
+
+/* line 262, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.fullproduct {
+  background-color: white;
+  font-size: 1.2em;
+}
+
+/* line 267, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.fullproduct img {
+  width: 65%;
+}
+
+/* line 271, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.fullproduct nav {
+  background-color: #fdedda;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 277, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.fullproduct nav ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 281, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.fullproduct nav li {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* line 288, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.panel {
+  margin: 0 auto;
+  width: 65%;
+  border: 2px solid #7cc6e8;
+}
+
+/* line 293, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.panel p {
+  padding: 1%;
+  margin-bottom: 0;
+}
+
+/* line 298, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.activepanel {
+  background-color: white;
+}
+
+/* line 301, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productrow {
+  padding-bottom: 2%;
+}
+
+/* line 304, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.modal-body {
+  border: 0.3em solid #fba1b2;
+}
+
+/* line 308, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.arrow:hover {
+  text-decoration: underline;
+}
+
+/* line 312, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.paginationbar {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=../style.map */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myStore">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Coiny|Roboto|Cabin" rel="stylesheet">
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="node_modules/garand-sticky-5cfc20c/jquery.sticky.js" type="text/javascript"></script>
+  <script src="app.js" type = "text/javascript"></script>
+
+
+  <script src="modules/productdisplay.js" type = "text/javascript"></script>
+  <script src="modules/headerfooter.js" type = "text/javascript"></script>
+  <script src="modules/filter.js" type = "text/javascript"></script>
+  <script src="controllers/myStoreController.js" type = "text/javascript"></script>
+  <script src="controllers/myModalController.js" type = "text/javascript"></script>
+  <script src="controllers/myPanelController.js" type = "text/javascript"></script>
+  <script src="controllers/myFilterController.js" type = "text/javascript"></script>
+
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" type="text/javascript"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js" type="text/javascript"></script>
+
+
+  <title>Cloud Whale: A Crafts Store</title>
+</head>
+<body ng-controller="myStoreController as controller">
+  <div class="maindiv col-sm-10 col-sm-offset-1 container">
+    <div class="siteheader" siteheader></div>
+    <div class="content_div" ng-controller="myFilterController as FC">
+      <div class="leftdiv col-xs-4 container">
+        <div class="about">
+          <h1>About Us</h1>
+          <p>We specialize in cute, soft, cuddy crafts and plush toys.
+            Each of our items is carefully handcrafted and unique. Our products
+            make great gifts!
+          Please browse our fine selection of products and take home a friend today!</p>
+        </div>
+        <div filter ng-app='filterModule' id="stickysidebar">
+        </div>
+
+      </div>
+
+      <div class="rightdiv col-xs-8 container-fluid">
+        <div class="searchbar row">
+          <form id="topsearchbar" class="col-xs-8">
+            <input type="text" placeholder="Search Products" id="searchinput">
+            <input id="searchsubmitbutton" type="submit">
+          </form>
+
+            <div class="cart col-xs-4">
+              <span class="cart_text"><a href="#">Your cart (0) <span class="glyphicon glyphicon-shopping-cart"></span></a></span>
+            </div>
+        </div>
+
+        <div class="productdisplay">
+          <h3>Top Products</h3>
+          <div topproducts></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

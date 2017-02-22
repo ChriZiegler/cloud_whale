@@ -1,0 +1,101 @@
+[{
+  "name":"Garo-Garo Plush",
+  "price":40,
+  "description": "This cuddly creature is made of soft minky. Perfect for children and enthusiasts alike.",
+  "specifications":{"size":"30cm",
+                    "materials":"White minky, black fleece, orange felt"},
+  "images":["images/plush_1.png"],
+  "tags":["minky","plush"],
+  "rating":1
+},
+{
+  "name":"Eevee Plush",
+  "price":30,
+  "description": "From the popular Pokemon series, this foxlike creature is perfect for Eevee fans. Makes a great gift!",
+  "specifications":{"size":"20cm",
+                    "materials":"Brown fleece, white fleece, black felt"},
+  "images":["images/plush_2.png"],
+  "tags":["fleece","plush","pokemon"],
+  "rating":3
+},
+{
+  "name":"Catbug Plush",
+  "price":50,
+  "description": "From the Youtube cartoon series 'Bravest Warriors' comes Catbug! This life-size plush will make the perfect addition to your collection",
+  "specifications":{"size":"50cm",
+                    "materials":"Blue minky, red fleece, black felt"},
+  "images":["images/plush_3.png"],
+  "tags":["minky","plush"],
+  "rating":2
+},
+{
+  "name":"Applebloom Plush",
+  "price":30,
+  "description": "From the cartoon 'My Little Pony: Friendship is Magic' comes Applebloom. Comes with her signature pink bow. Add this item to your collection today!",
+  "specifications":{"size":"20cm",
+                    "materials":"Red fleece, cream fleece, white felt, red ribbon"},
+  "images":["images/plush_4.png"],
+  "tags":["fleece","plush","My Little Pony"],
+  "rating":4
+},
+{
+  "name":"Blue Jolteon Plush",
+  "price":25,
+  "description": "It's the Pokemon character Jolteon, but in a rare blue color!",
+  "specifications":{"size":"20cm",
+                    "materials":"blue minky"},
+  "images":["images/plush_5.png"],
+  "tags":["minky","pokemon","plush"],
+  "rating":5
+},
+{
+  "name":"Large Jolteon Plush",
+  "price":65,
+  "description": "This huge plush is very huggable! Great for fans of the Pokemon character Jolteon",
+  "specifications":{"size":"75cm",
+                    "materials":"yellow minky, brown fleece, pink felt"},
+  "images":["images/plush_6.png"],
+  "tags":["minky","pokemon","plush"],
+  "rating":1
+},
+{
+  "name":"Haunter Plush",
+  "price":35,
+  "description": "It's the Pokemon Haunter! Complete with floating hands attached with string.",
+  "specifications":{"size":"35cm",
+                    "materials":"Purple fleece, red felt"},
+  "images":["images/plush_7.png"],
+  "tags":["fleece","pokemon","plush"],
+  "rating":5
+},
+{
+  "name":"Fox Plush",
+  "price":50,
+  "description": "This cute fox comes with a blue bandana. Makes a great birthday gift!",
+  "specifications":{"size":"60cm",
+                    "materials":"Orange fleece, black fleece, blue felt"},
+  "images":["images/plush_8.png"],
+  "tags":["fleece","animal","plush"],
+  "rating":0
+},
+{
+  "name":"Lizard Stickers",
+  "price":7,
+  "description": "What's your favorite lizard? The leopard gecko? The blue-tongued skink? With this sticker set, you don't have to choose!",
+  "specifications":{"size":"20cm x 35cm",
+                    "materials":"Sticker sheet"},
+  "images":["images/stickers_1.png"],
+  "tags":["stickers","animal","lizard"],
+  "rating":-1
+},
+{
+  "name":"Pastry Whale",
+  "price":25,
+  "description": "This cute whale looks like a donut with sprinkles!",
+  "specifications":{"size":"18cm",
+                    "materials":"Mint, white, and pink fleece, safety eyes"},
+  "images":["images/plush_9.png"],
+  "tags":["plush","animal","whale"],
+  "rating":0
+  }
+]
