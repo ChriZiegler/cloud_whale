@@ -298,7 +298,17 @@ div{
 .activepanel{
   background-color:white;
 }
-
+.productrow{
+  padding-bottom:2%;
+}
 .modal-body{
   border: .3em solid $pink;
+}
+
+.arrow:hover{
+  text-decoration:underline;
+}
+
+.paginationbar{
+  font-size:1.5em;
 }

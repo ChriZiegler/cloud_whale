@@ -1,6 +1,6 @@
 {
   "name": "cloud_whale",
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "description": "E-commerce website for crafts",
   "main": "app.js",
   "scripts": {

@@ -77,5 +77,25 @@
   "images":["images/plush_8.png"],
   "tags":["fleece","animal","plush"],
   "rating":0
+},
+{
+  "name":"Lizard Stickers",
+  "price":7,
+  "description": "What's your favorite lizard? The leopard gecko? The blue-tongued skink? With this sticker set, you don't have to choose!",
+  "specifications":{"size":"20cm x 35cm",
+                    "materials":"Sticker sheet"},
+  "images":["images/stickers_1.png"],
+  "tags":["stickers","animal","lizard"],
+  "rating":-1
+},
+{
+  "name":"Pastry Whale",
+  "price":25,
+  "description": "This cute whale looks like a donut with sprinkles!",
+  "specifications":{"size":"18cm",
+                    "materials":"Mint, white, and pink fleece, safety eyes"},
+  "images":["images/plush_9.png"],
+  "tags":["plush","animal","whale"],
+  "rating":0
   }
 ]

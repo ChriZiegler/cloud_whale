@@ -15,3 +15,7 @@ function setHeight(elem1, elem2) {
     elem1.css('height', height);
   }
 }
+
+$(document).ready(function(){
+  $("#stickysidebar").sticky({topSpacing:0})
+});

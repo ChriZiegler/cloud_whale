@@ -12,6 +12,7 @@
   <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="node_modules/garand-sticky-5cfc20c/jquery.sticky.js" type="text/javascript"></script>
   <script src="app.js" type = "text/javascript"></script>
   <script src="modules/productdisplay.js" type = "text/javascript"></script>
   <script src="modules/headerfooter.js" type = "text/javascript"></script>
@@ -20,7 +21,7 @@
   <script src="controllers/myModalController.js" type = "text/javascript"></script>
   <script src="controllers/myPanelController.js" type = "text/javascript"></script>
   <script src="controllers/myFilterController.js" type = "text/javascript"></script>
-
+  <script src="controllers/myPaginationController.js" type = "text/javascript"></script>
   <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" type="text/javascript"></script>
   <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js" type="text/javascript"></script>
 
@@ -38,7 +39,7 @@
           <p>We can create custom designs to your own specifications! Prices range from $30-$200.
           Contact us for more information and to get a quote!</p>
         </div>
-        <div filter>
+        <div filter id="stickysidebar">
         </div>
 
       </div>
@@ -64,5 +65,7 @@
     </div>
 
   </div>
+  <dir-pagination-controls></dir-pagination-controls>
+
 </body>
 </html>

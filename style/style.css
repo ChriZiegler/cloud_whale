@@ -354,9 +354,24 @@ div {
   background-color: white;
 }
 
-/* line 302, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+/* line 301, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.productrow {
+  padding-bottom: 2%;
+}
+
+/* line 304, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
 .modal-body {
   border: 0.3em solid #fba1b2;
+}
+
+/* line 308, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.arrow:hover {
+  text-decoration: underline;
+}
+
+/* line 312, C:/Users/Christie/Dropbox/coding_temple/cloud_whale/style/sass/style.scss */
+.paginationbar {
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=../style.map */
