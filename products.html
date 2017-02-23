@@ -47,8 +47,8 @@
       <div class="rightdiv col-xs-8 container">
         <div class="searchbar row">
           <form id="topsearchbar" class="col-xs-8">
-            <input type="text" placeholder="Search Products" id="searchinput">
-            <input id="searchsubmitbutton" type="submit">
+            <input type="text" placeholder="Search Products" id="searchinput" ng-model="text">
+            <input id="searchsubmitbutton" type="submit" ng-click="setSearchTerm(text)">
           </form>
 
             <div class="cart col-xs-4">

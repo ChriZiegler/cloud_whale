@@ -2,7 +2,10 @@ filterModule.controller("myFilterController", function($scope, $filter){
   ths = this
   $scope.types={};
   $scope.prices={}
-
+  $scope.searchterm = ""
+  $scope.setSearchTerm = function(text){
+    $scope.searchterm = text
+  }
 
 })
 

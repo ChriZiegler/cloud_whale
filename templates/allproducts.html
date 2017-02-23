@@ -1,5 +1,5 @@
 <div ng-app="productdisplay" class="productrow row" ng-controller="myPaginationController as pagectrl">
-  <div ng-repeat="product in controller.products | orderBy:'rating' | myfilter:types:prices |startFrom:pagectrl.currentPage*pagectrl.pageSize| limitTo:pagectrl.pageSize" ng-controller="modalController as modalcontroller">
+  <div ng-repeat="product in (filteredproducts  = (controller.products | orderBy:'rating' | myfilter:types:prices | filter:searchterm))| startFrom:pagectrl.currentPage*pagectrl.pageSize| limitTo:pagectrl.pageSize" ng-controller="modalController as modalcontroller">
     <div class="clearfix" ng-if="$index % 2 ==0"></div>
     <div class="col-sm-6 col-xs-12 productbox">
       <img ng-src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)">
@@ -9,12 +9,13 @@
       <button class="addcartbutton">Add to cart</button>
     </div>
   </div>
+  <div class="clearfix"></div>
   <div class="paginationbar">
   <span class="glyphicon glyphicon-menu-left arrow" ng-show="pagectrl.currentPage!=0" ng-click="pagectrl.currentPage = pagectrl.currentPage-1"></span>
-  Page {{pagectrl.currentPage+1}} of {{ pagectrl.numberOfPages(controller.products)}}
+  Page {{pagectrl.currentPage+1}} of {{ pagectrl.numberOfPages(filteredproducts)}}
   <span class="glyphicon glyphicon-menu-right
 
-   arrow" ng-show="pagectrl.currentPage < controller.products.length/pagectrl.pageSize-1" ng-click="pagectrl.currentPage = pagectrl.currentPage+1"></span>
+   arrow" ng-show="pagectrl.currentPage < filteredproducts.length/pagectrl.pageSize-1" ng-click="pagectrl.currentPage = pagectrl.currentPage+1"></span>
   </div>
 
 </div>
