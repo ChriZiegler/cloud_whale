@@ -6,7 +6,8 @@
                     "materials":"White minky, black fleece, orange felt"},
   "images":["images/plush_1.png"],
   "tags":["minky","plush"],
-  "rating":1
+  "rating":1,
+  "creator":"Christie Ziegler"
 },
 {
   "name":"Eevee Plush",
@@ -16,7 +17,9 @@
                     "materials":"Brown fleece, white fleece, black felt"},
   "images":["images/plush_2.png"],
   "tags":["fleece","plush","pokemon"],
-  "rating":3
+  "rating":3,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Catbug Plush",
@@ -26,7 +29,9 @@
                     "materials":"Blue minky, red fleece, black felt"},
   "images":["images/plush_3.png"],
   "tags":["minky","plush"],
-  "rating":2
+  "rating":2,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Applebloom Plush",
@@ -36,7 +41,9 @@
                     "materials":"Red fleece, cream fleece, white felt, red ribbon"},
   "images":["images/plush_4.png"],
   "tags":["fleece","plush","My Little Pony"],
-  "rating":4
+  "rating":4,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Blue Jolteon Plush",
@@ -46,7 +53,9 @@
                     "materials":"blue minky"},
   "images":["images/plush_5.png"],
   "tags":["minky","pokemon","plush"],
-  "rating":5
+  "rating":5,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Large Jolteon Plush",
@@ -56,7 +65,9 @@
                     "materials":"yellow minky, brown fleece, pink felt"},
   "images":["images/plush_6.png"],
   "tags":["minky","pokemon","plush"],
-  "rating":1
+  "rating":1,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Haunter Plush",
@@ -66,7 +77,9 @@
                     "materials":"Purple fleece, red felt"},
   "images":["images/plush_7.png"],
   "tags":["fleece","pokemon","plush"],
-  "rating":5
+  "rating":5,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Fox Plush",
@@ -76,7 +89,9 @@
                     "materials":"Orange fleece, black fleece, blue felt"},
   "images":["images/plush_8.png"],
   "tags":["fleece","animal","plush"],
-  "rating":0
+  "rating":0,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Lizard Stickers",
@@ -86,7 +101,9 @@
                     "materials":"Sticker sheet"},
   "images":["images/stickers_1.png"],
   "tags":["stickers","animal","lizard"],
-  "rating":-1
+  "rating":-1,
+  "creator":"Christie Ziegler"
+
 },
 {
   "name":"Pastry Whale",
@@ -96,6 +113,8 @@
                     "materials":"Mint, white, and pink fleece, safety eyes"},
   "images":["images/plush_9.png"],
   "tags":["plush","animal","whale"],
-  "rating":0
+  "rating":0,
+  "creator":"Christie Ziegler"
+
   }
 ]

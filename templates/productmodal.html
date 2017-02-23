@@ -10,7 +10,7 @@
       <ul>
         <li ng-class="{activepanel:panel.isSelected(1)}"><a ng-click="panel.selectTab(1)">Description</a></li>
         <li ng-class="{activepanel:panel.isSelected(2)}"><a ng-click="panel.selectTab(2)">Specifications</a></li>
-        <li ng-class="{activepanel:panel.isSelected(3)}"><a ng-click="panel.selectTab(3)">Reviews</a></li>
+        <li ng-class="{activepanel:panel.isSelected(3)}"><a ng-click="panel.selectTab(3)">Creator</a></li>
       </ul>
     </nav>
     <div ng-show="panel.isSelected(1)" class="fullproduct_description">
@@ -22,7 +22,7 @@
 
     </div>
     <div ng-show="panel.isSelected(3)" class="fullproduct_reviews">
-      <p>Feature coming soon!</p>
+      <p><b>Created by:</b> {{$ctrl.modalproduct.creator}}</p>
     </div>
 
 
