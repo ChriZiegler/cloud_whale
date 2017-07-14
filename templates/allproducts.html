@@ -2,7 +2,7 @@
   <div ng-repeat="product in (filteredproducts  = (controller.products | orderBy:'rating' | myfilter:types:prices | filter:searchterm))| startFrom:pagectrl.currentPage*pagectrl.pageSize| limitTo:pagectrl.pageSize" ng-controller="modalController as modalcontroller">
     <div class="clearfix" ng-if="$index % 2 ==0"></div>
     <div class="col-sm-6 col-xs-12 productbox">
-      <img ng-src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)">
+      <img ng-src={{product.images[0]}} alt="" ng-click="modalcontroller.open(large,product)"/>
       <h4>{{product.name}}</h4>
       <p class="price">{{product.price|currency}}</p>
       <p>{{product.description}}</p>
